@@ -21,6 +21,3 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as sock: #create socket
         read = sock.recv(buffer_size) #read the data from socket
         f2.write(read) #write the bytes to the file
 sock.close()
-
-
-
