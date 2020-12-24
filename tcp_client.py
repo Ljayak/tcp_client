@@ -4,9 +4,10 @@ from random import random
 import pandas
 
 # https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
+
 buffer_size = 4096
 filename = "id.xml"
-HOST = '127.0.0.1'
+HOST = '192.168.87.160'
 PORT = 10000
 with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as sock:
     print("Connecting to:", HOST, PORT)
